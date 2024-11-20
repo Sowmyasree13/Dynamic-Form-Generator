@@ -22,10 +22,10 @@ Modify the Form:
 In the left panel (JSON Editor), you can modify the form structure
 Here's a simple example to add a new field - copy and paste this into the JSON editor:
 
-{
-  "formTitle": "Project Requirements Survey",
-  "formDescription": "Please fill out this survey about your project needs",
-  "fields": [
+    {
+    "formTitle": "Project Requirements Survey",
+    "formDescription": "Please fill out this survey about your project needs",
+    "fields": [ 
     
     {
       "id": "name",
@@ -56,8 +56,9 @@ Here's a simple example to add a new field - copy and paste this into the JSON e
         {"value": "manager", "label": "Manager"}
       ]
     }
-  ]
-}
+    ]
+    }
+    
 Features to Try:
 
 Click the "Toggle Layout" button in the top-right to switch between horizontal and vertical layouts

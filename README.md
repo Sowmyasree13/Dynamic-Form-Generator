@@ -2,7 +2,7 @@ I'll guide you through running this project step by step:
 
 First, let's make sure the development server starts:
 Start the development server
-  >>npm run dev
+  >npm run dev
 
 Now that the server is running, here's how to use the Dynamic Form Generator:
 
@@ -26,6 +26,7 @@ Here's a simple example to add a new field - copy and paste this into the JSON e
   "formTitle": "Project Requirements Survey",
   "formDescription": "Please fill out this survey about your project needs",
   "fields": [
+    
     {
       "id": "name",
       "type": "text",
